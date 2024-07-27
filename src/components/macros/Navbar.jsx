@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navbar = () => {
   return (
     <div className=" w-full flex md:justify-start justify-center items-center bg-[#1B3252] h-[64px]   p-3 ">
