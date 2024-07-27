@@ -1,8 +1,9 @@
 
 
-const SearchBar = ({ setSearchQuery }) => {
+const SearchBar = ({ setSearchQuery, setCurrentPage }) => {
   const handleChange = (event) => {
     setSearchQuery(event.target.value);
+    setCurrentPage(1)
   };
 
   return (

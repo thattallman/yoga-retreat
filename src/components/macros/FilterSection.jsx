@@ -79,7 +79,7 @@ const FilterSection = () => {
             />
           </div>
           <div>
-            <SearchBar setSearchQuery={setSearchQuery} />
+            <SearchBar setSearchQuery={setSearchQuery}  setCurrentPage={setCurrentPage} />
           </div>
         </div>
 
